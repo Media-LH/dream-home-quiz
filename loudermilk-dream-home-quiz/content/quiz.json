@@ -1,0 +1,110 @@
+{
+  "sections": [
+    {
+      "id": "style",
+      "title": "Architectural Language",
+      "type": "tiles",
+      "options": [
+        {
+          "id": "european_modern",
+          "label": "European modern",
+          "image": "/quiz/tiles/style/european_modern.png"
+        },
+        {
+          "id": "mountain_modern",
+          "label": "Mountain modern",
+          "image": "/quiz/tiles/style/mountain_modern.png"
+        },
+        {
+          "id": "transitional",
+          "label": "Transitional",
+          "image": "/quiz/tiles/style/transitional.png"
+        }
+      ]
+    },
+    {
+      "id": "roof",
+      "title": "Roof Form",
+      "type": "tiles",
+      "options": [
+        {
+          "id": "flat",
+          "label": "Flat / parapet",
+          "image": "/quiz/tiles/roof/flat.png"
+        },
+        {
+          "id": "low_gable",
+          "label": "Low-slope gable",
+          "image": "/quiz/tiles/roof/low_gable.png"
+        },
+        {
+          "id": "shed",
+          "label": "Shed",
+          "image": "/quiz/tiles/roof/shed.png"
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "title": "Facade Materials",
+      "type": "multiselect",
+      "options": [
+        {
+          "id": "smooth_stucco",
+          "label": "Smooth stucco",
+          "image": "/quiz/tiles/material/stucco.png"
+        },
+        {
+          "id": "limestone",
+          "label": "Warm limestone",
+          "image": "/quiz/tiles/material/limestone.png"
+        },
+        {
+          "id": "granite",
+          "label": "Cool granite",
+          "image": "/quiz/tiles/material/granite.png"
+        },
+        {
+          "id": "timber",
+          "label": "Timber accents",
+          "image": "/quiz/tiles/material/timber.png"
+        },
+        {
+          "id": "metal",
+          "label": "Architectural metal",
+          "image": "/quiz/tiles/material/metal.png"
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "title": "Camera Angle",
+      "type": "select",
+      "options": [
+        {
+          "id": "curb_eye_level",
+          "label": "Curb view (eye-level)"
+        },
+        {
+          "id": "aerial_three_quarter",
+          "label": "Aerial 3/4"
+        },
+        {
+          "id": "rear_terrace",
+          "label": "Rear terrace"
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "stories": "2",
+    "windowRhythm": "floor_to_ceiling",
+    "garage": "side_entry_hidden",
+    "entry": "pivot_canopy",
+    "site": "flat",
+    "driveway": "paver",
+    "landscaping": "curated",
+    "light": "golden_hour",
+    "seed": 1234
+  }
+}

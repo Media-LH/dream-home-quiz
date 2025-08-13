@@ -1,0 +1,12 @@
+{
+  "brandName": "Loudermilk Homes",
+  "emailSubject": "Your Custom Exterior Is Ready",
+  "aboutBlurb": "The Best Custom Home Builder in Atlanta, GA and Cashiers, NC",
+  "links": {
+    "website": "https://www.loudermilkhomes.com/",
+    "gallery": "https://www.loudermilkhomes.com/gallery",
+    "contact": "https://www.loudermilkhomes.com/contact-us"
+  },
+  "weeklyRenderLimit": 3,
+  "logoPath": "/brand/loudermilk-logo.png"
+}
